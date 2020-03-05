@@ -7,7 +7,8 @@
 declare type BN = import("bn.js");
 declare type Web3 = import("web3");
 
-declare const assert: Chai.AssertStatic;
+// Fix for power-assert
+// declare const assert: Chai.AssertStatic;
 declare const expect: Chai.ExpectStatic;
 
 declare const web3: Web3;
